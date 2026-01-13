@@ -1,0 +1,19 @@
+{
+  "name": "lesson-2-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "mpa": "node src/mpa/script.js",
+    "spa": "node src/spa/script.js",
+    "spa-extra": "node src/spa-extra/script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsdom": "^27.4.0",
+    "selenium-webdriver": "^4.39.0",
+    "mocha": "11.7.4"
+  }
+}
